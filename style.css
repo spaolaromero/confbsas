@@ -1,0 +1,146 @@
+
+/*a toda la página:::::::::::::::::::*/
+*{
+        padding: 0px;
+        box-sizing: border-box;
+        margin: 0;
+        left: 0;
+        right: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-ser;
+        } 
+
+/*artículo fondo BA::::::::::::::::::*/
+article{
+        background:url(./imagenes/buenos-aires-ciudad.jpg);
+        background-size: cover;
+        padding-top:250px;
+        padding-bottom: 400px;
+        }
+
+#ba{
+        padding-right: 250px;
+        width:auto;
+        max-width: 800px;
+        float: right;
+        text-align: right;
+        color: white;
+        }
+
+
+/*botones de la página:::::::::::::::*/
+.boton1 , .boton3{
+        color: white;
+        border: 1px;
+        border-style: solid;
+        border-radius: 4px;
+        padding: 8px;
+        width: max-content;
+        }
+
+.boton1:hover, .boton3:hover{
+        background-color: white;
+        color:dimgray;
+        border-radius: 4px;
+        }
+
+.boton1:active , .boton3:active{
+        border-width: 5px;
+        border-color:gainsboro;
+        }
+
+.boton2{
+        color: white;
+        background-color:green;
+        border-radius: 4px;
+        margin-left: 3px;
+        padding: 8px;
+        width: max-content;
+        } 
+
+.boton2:hover{
+        background-color:darkgreen;
+        border-radius: 4px;
+        }
+
+.boton4{
+        color: white;
+        background-color:green;
+        border-radius: 4px;
+        padding: 8px;
+        }
+
+/*etiquetas oradores:::::::::::::::::*/
+.textocolor1{
+        background-color: aqua;
+        color: black;
+        border-radius: 4px;
+        padding: 3px;
+        margin-left: 3px;
+        }
+
+.textocolor2{
+        background-color: yellow;
+        color: black;
+        border-radius: 4px;
+        padding: 3px;
+        margin-left: 3px;
+        }
+
+.textocolor3{   
+        background-color: grey;
+        color: white;
+        border-radius: 4px;
+        padding: 3px;
+        margin-left: 3px;
+        }
+
+.textocolor4{
+        background-color: red;
+        color: white;
+        border-radius: 4px;
+        padding: 3px;
+        margin-left: 3px;
+        }
+
+/*formulario conviértete:::::::::::::*/
+.formulario_orador{
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        }
+
+#nombre , #apellido{
+        width: 45%;
+        padding: 8px;
+        }
+
+#hablar{
+        width: 90%;
+        padding: 8px;
+        }
+
+
+/*footer:::::::::::::::::::::::::::::*/
+footer{
+        padding: 12px;
+        position: fixed;
+        text-align:center;
+        bottom: 0px;
+        color:white;
+        text-decoration: none;  
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+li{
+        display: inline;
+        }
+
+a{               
+        color:darkgray;
+        text-decoration: none;
+        padding: 8px;
+        }
+
+a:hover{
+        color:white;
+        }
